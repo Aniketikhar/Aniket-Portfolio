@@ -1,0 +1,23 @@
+import React from "react";
+import "./Navbar.css";
+
+const Navbar = () => {
+  return (
+    <div className="navbar">
+      <h1>Aniket Ikhar</h1>
+
+      <ul className="nav-menu">
+        <li>Home</li>
+        <li>About Me</li>
+        <li>Skills</li>
+        <li>Projects</li>
+        <li>Contact</li>
+      </ul>
+      <div className="nav-connect">
+        Connect With Me
+      </div>
+    </div>
+  );
+};
+
+export default Navbar;

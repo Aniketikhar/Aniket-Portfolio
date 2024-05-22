@@ -1,12 +1,17 @@
 import './App.css'
 import React from 'react'
+import Navbar from './Components/Navbar/Navbar'
+import Hero from './Components/Hero/Hero'
+import About from './Components/About/About'
 
 function App() {
   
 
   return (
     <>
-     fefwef
+     <Navbar />
+     <Hero />
+     <About />
     </>
   )
 }
