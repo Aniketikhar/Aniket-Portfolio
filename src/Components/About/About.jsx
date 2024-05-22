@@ -31,52 +31,45 @@ const About = () => {
           <div className="about-skills">
             <div className="about-skill">
               <p>HTML & CSS</p>
-            </div>
             <hr style={{ width: "50%" }} />
+            </div>
             <div className="about-skill">
               <p>HTML & CSS</p>
+            <hr style={{ width: "30%" }} />
             </div>
-            <hr style={{ width: "50%" }} />
             <div className="about-skill">
               <p>HTML & CSS</p> 
+            <hr style={{ width: "60%" }} />
             </div>
-            <hr style={{ width: "50%" }} />
             <div className="about-skill">
               <p>HTML & CSS</p>
+            <hr style={{ width: "70%" }} />
             </div>
-            <hr style={{ width: "50%" }} />
             <div className="about-skill">
               <p>HTML & CSS</p>
+            <hr style={{ width: "40%" }} />
             </div>
-            <hr style={{ width: "50%" }} />
           </div>
         </div>
       </div>
       <div className="about-achievments">
-        <h1>10+</h1>
-        <p>YEARS OF EXPERIENCE</p>
+        <div className="about-achievment">
+          <h1>10+</h1>
+          <p>YEARS OF EXPERIENCE</p>
+        </div>
+        <hr />
+        <div className="about-achievment">
+          <h1>10+</h1>
+          <p>YEARS OF EXPERIENCE</p>
+        </div>
+        <hr />
+        <div className="about-achievment">
+          <h1>10+</h1>
+          <p>YEARS OF EXPERIENCE</p>
+        </div>
+        
+        
       </div>
-      <hr />
-      <div className="about-achievments">
-        <h1>10+</h1>
-        <p>YEARS OF EXPERIENCE</p>
-      </div>
-      <hr />
-      <div className="about-achievments">
-        <h1>10+</h1>
-        <p>YEARS OF EXPERIENCE</p>
-      </div>
-      <hr />
-      <div className="about-achievments">
-        <h1>10+</h1>
-        <p>YEARS OF EXPERIENCE</p>
-      </div>
-      <hr />
-      <div className="about-achievments">
-        <h1>10+</h1>
-        <p>YEARS OF EXPERIENCE</p>
-      </div>
-      <hr />
 
     </div>
   );

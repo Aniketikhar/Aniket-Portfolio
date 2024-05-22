@@ -56,3 +56,57 @@
     transition: 0.3s;
     
 }
+.about-skill p {
+    min-width: 150px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.about-skill hr {
+    outline: none;
+    border: none;
+    width: 50%;
+    height: 8px;
+    border-radius: 50px;
+    background:  linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+
+}
+
+.about-achievments {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 80px;
+
+}
+
+.about-achievment{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.about-achievment h1 {
+    font-size: 60px;
+    font-weight: 700;
+    background:  linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.about-achievment p{
+    font-size: 22px;
+    font-weight: 500;
+
+}
+
+.about-skill:hover{
+    transform: scale(1.10);
+    transition: 0.3s;
+}
+.about-achievment:hover{
+    transform: scale(1.10);
+    transition: 0.3s;
+}
