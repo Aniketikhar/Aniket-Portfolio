@@ -112,7 +112,7 @@
     border: none;
     color: white;
     border-radius: 50px;
-    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
     font-size: 22px;
     padding: 20px 60px;
     margin-bottom: 50px;
@@ -123,6 +123,5 @@
 
 .contact-submit:hover{
     transform: scale(1.10);
-    
     transition: 0.3s;
 }
