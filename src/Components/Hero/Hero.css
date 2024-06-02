@@ -1,3 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+body {
+  font-family:'Roboto';
+  background-color: #131417;  
+}
+p {
+  text-shadow: 0 0 7px rgba(255,255,255,.3), 0 0 3px rgba(255,255,255,.3);
+}
+.container {
+  color: #e5e5e5;
+  font-size: 2.26rem;
+  text-transform: uppercase;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.animation {
+  height:60px;
+  overflow:hidden;
+  margin-left: 1rem;
+  margin-top: -25px;
+}
+
+.animation > div > div {
+  padding: 0.25rem 0.75rem;
+  height:4.81rem;
+  margin-bottom: 2.81rem;
+  display:inline-block;
+  font-size: 40px;
+}
+
+.animation div:first-child {
+  animation: text-animation 16s infinite;
+}
+
+/* .first div {
+  background-color:#20a7d8;
+}
+.second div {
+  background-color:#CD921E;
+}
+.third div {
+  background-color:#c10528;
+} */
+
+@keyframes text-animation {
+    0% {margin-top: 0;}
+    10% {margin-top: 0;}
+    20% {margin-top: -5.62rem;}
+    30% {margin-top: -5.62rem;}
+    40% {margin-top: -11.24rem;}
+    60% {margin-top: -11.24rem;}
+    70% {margin-top: -5.62rem;}
+    80% {margin-top: -5.62rem;}
+    90% {margin-top: 0;}
+    100% {margin-top: 0;}
+}
+
+
+
+
+
 .hero{
     display: flex;
     align-items: center;
@@ -8,7 +73,8 @@
 }
 
 .hero img{
-    margin-top: 150px;
+    margin-top: 30px;
+    border-radius: 50%;
 
 }
 
@@ -19,12 +85,21 @@
     font-weight: 600;
 }
 
+.hero h2{
+    font-size: 60px;
+}
+
 .hero h1 span{
-    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    /* background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%); */
+    background: linear-gradient(221deg,#d40aab,#da0303,#f9581f,#1459f3,#217e93);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    animation: gradient-animation 25s ease infinite;
 }
+
+
+
 
 .hero p{
     width: 50%;
@@ -68,3 +143,46 @@
 
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+    .hero h1{
+        text-align: center;
+        width: 70%;
+        font-size: 70px;
+        font-weight: 600;
+    }
+}
+
+@media(max-width:768px){
+    .hero img{
+        /* margin-bottom: 120px; */
+        width: 260px;
+    }
+
+    .hero h1{
+        /* margin-top: 50px; */
+        width: 90%;
+        font-size: 50px;
+    }
+
+    .hero p{
+        font-size: 18px;
+        line-height: 30px ;
+    }
+
+    .hero-action{
+        font-size: 18px;
+    }
+
+    .hero-connect{
+        padding: 15px 30px;
+    }
+
+    .hero-resume{
+        padding: 15px 30px;
+    }
+
+    .hero-connect:hover{
+        border: 2px solid white;
+}
+
+}

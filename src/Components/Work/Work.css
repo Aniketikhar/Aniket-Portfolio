@@ -12,7 +12,7 @@
 
 }
 
-.work-title h1{
+.work-title{
     padding: 0px 30px;
     font-size: 80px;
     font-weight: 600;
@@ -64,3 +64,59 @@
     transition: 0.6s;
 }
 
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .work{
+        width: 90%;
+        
+        margin: 0px auto;
+        margin-top: 50px;
+    }
+    .work-title{
+        font-size: 40px;
+        padding: 0px;
+    }
+    
+    .work-title img{
+        width: 250px;
+    }
+    .work-container{
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    .work-showmore{
+        padding: 15px 30px;
+    }
+}
+
+@media(max-width:768px){
+
+.work{
+    width: 90%;
+    
+    margin: 0px auto;
+    margin-top: 50px;
+}
+.work-title{
+    font-size: 30px;
+    padding: 0px;
+}
+
+.work-title img{
+    width: 200px;
+}
+
+.work-container{
+    grid-template-columns: 1fr;
+    
+}
+
+.work-container img{
+    width: 400px;
+}
+
+.work-showmore{
+    padding: 15px 30px;
+}
+
+}
