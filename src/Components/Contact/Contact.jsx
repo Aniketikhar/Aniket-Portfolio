@@ -1,4 +1,4 @@
-import React , {useState} from "react";
+import React, { useState } from "react";
 import "./Contact.css";
 import theme_pattern from "../../assets/theme_pattern.svg";
 import mail_icon from "../../assets/mail_icon.svg";
@@ -17,7 +17,7 @@ const Contact = () => {
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
-      body: formData
+      body: formData,
     });
 
     const data = await response.json();
@@ -41,9 +41,9 @@ const Contact = () => {
         <div className="contact-left">
           <h1>Let's Talk</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat
-            soluta praesentium sequi quam asperiores vitae dolor commodi
-            doloribus reiciendis non.
+            I am always open to discussing new opportunities, collaborations, or
+            any interesting projects. Feel free to reach out to me through any
+            of the following ways:
           </p>
           <div className="contact-details">
             <div className="contact-detail">
@@ -56,19 +56,28 @@ const Contact = () => {
             </div>
             <div className="contact-detail">
               <img src={location_icon} alt="" />
-              <p>kfjnbdfndnvjdfnbvdf</p>
+              <p>Nagpur</p>
             </div>
           </div>
-          
         </div>
         <form onSubmit={onSubmit} className="contact-right">
-            <label htmlFor="">Your Name</label>
-            <input type="text" name="name" id="name " placeholder="Enter your name" />
-            <label htmlFor="">Your Email</label>
-            <input type="email" name="email" id="email " placeholder="Enter your email" />
-            <label htmlFor="">write your message here</label>
-            <textarea name="message" id="message" rows="8"></textarea>
-            <button className="contact-submit">Submit Now</button>
+          <label htmlFor="">Your Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name "
+            placeholder="Enter your name"
+          />
+          <label htmlFor="">Your Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email "
+            placeholder="Enter your email"
+          />
+          <label htmlFor="">write your message here</label>
+          <textarea name="message" id="message" rows="8"></textarea>
+          <button className="contact-submit">Submit Now</button>
         </form>
       </div>
     </div>

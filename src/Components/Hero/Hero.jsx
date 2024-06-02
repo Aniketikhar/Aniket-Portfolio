@@ -22,8 +22,9 @@ const Hero = () => {
         </div>
       </section>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. In omnis
-        dolorum recusandae at nihil animi fuga adipisci esse harum ducimus!
+      Self-motivated and hardworking fresher seeking an opportunity to work in a challenging environment to prove my
+skills and utilise my knowledge & intelligence in the growth of the organisation.
+
       </p>
       <div className="hero-action">
         <div className="hero-connect">
@@ -31,7 +32,7 @@ const Hero = () => {
             Connect with me
           </AnchorLink>
         </div>
-        <div className="hero-resume">My Resume</div>
+        <div className="hero-resume"><a href="https://drive.google.com/file/d/1VNeuUc9qBhFOb64W3antxqDvi0RFF-kE/view?usp=sharing" target="blank">My Resume</a></div>
       </div>
     </div>
   );

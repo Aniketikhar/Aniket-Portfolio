@@ -14,7 +14,7 @@
 
 .contact-title {
   padding: 0px 30px;
-  font-size: 80px;
+  font-size: 40px;
   font-weight: 600;
   z-index: 1;
 }
@@ -75,14 +75,14 @@
 
 .contact-right label {
   color: #d8d8d8;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 500;
 }
 
 .contact-right input {
   border: none;
-  width: 700px;
-  height: 78px;
+  width: 500px;
+  height: 60px;
   padding-left: 20px;
   border-radius: 4px;
   background-color: #32323c;
