@@ -76,6 +76,6 @@ My hands-on experience with these technologies has not only strengthened my tech
 ## Contact
 - **Email:** [aniketikhar88@gmail.com](mailto:aniketikhar88@gmail.com)
 - **Phone:** +91 9518926199
-- **Portfolio:** [Portfolio](#)
-- **GitHub:** [GitHub](#)
-- **LinkedIn:** [LinkedIn](#)
+- **Portfolio:** [[Portfolio](#)](https://port-folio-aniket-ikhar.vercel.app/)
+- **GitHub:** [[GitHub](#)](https://github.com/Aniketikhar)
+- **LinkedIn:** [[LinkedIn](#)](https://www.linkedin.com/in/aniket-ikhar-119800294/)
